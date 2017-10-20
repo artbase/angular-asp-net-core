@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "name": "angular-asp-net-core",
+  "version": "0.1.0",
+  "description": "Test application with Angular together with ASP.NET Core",
+  "main": "root.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artbase/angular-asp-net-core.git"
+  },
+  "keywords": [
+    "angular",
+    "asp.net",
+    "core",
+    "art_base"
+  ],
+  "author": "Bartosz Zaremba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artbase/angular-asp-net-core/issues"
+  },
+  "homepage": "https://github.com/artbase/angular-asp-net-core#readme"
+}
