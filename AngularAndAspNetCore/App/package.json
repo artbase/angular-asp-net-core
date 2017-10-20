@@ -6,9 +6,12 @@
   "version": "0.1.0",
   "description": "Test application with Angular together with ASP.NET Core",
   "main": "root.js",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "build": "webpack --config ./config/webpack.config.js"
   },
   "repository": {
     "type": "git",
