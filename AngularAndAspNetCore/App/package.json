@@ -15,7 +15,10 @@
   "description": "Test application with Angular together with ASP.NET Core",
   "main": "root.js",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^1.9.1",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12.6"
   },
   "scripts": {
     "test": "karma start",

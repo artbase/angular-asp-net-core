@@ -1,6 +1,9 @@
+import 'bootstrap';
+
 import _ from 'lodash';
 
 import './src/main/style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import icon from './src/img/cat.png';
 
@@ -18,4 +21,4 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component());
+document.getElementById('main').appendChild(component());
