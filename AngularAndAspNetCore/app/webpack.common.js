@@ -5,7 +5,9 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        app: './root.js'
+        root: './root.js',
+        login: './src/login/module.js',
+        app: './src/main/module.js'
     },
     output: {
         filename: '[name].bundle.js',
@@ -17,6 +19,9 @@ module.exports = {
             title: 'Angular and ASP.NET Core',
             inject: 'body',
             template: './index.html'
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common' // Specify the common bundle's name.
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
