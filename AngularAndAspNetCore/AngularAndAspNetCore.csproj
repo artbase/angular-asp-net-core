@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="app\src\main\dashboard\" />
+    <Folder Include="app\src\main\common\" />
+    <Folder Include="app\src\main\shared\" />
+    <Folder Include="app\src\main\statistics\" />
+    <Folder Include="app\src\news\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
